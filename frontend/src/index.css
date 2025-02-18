@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adicione no arquivo index.css */
+.carousel-button {
+  transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+  background-color: #f3f4f6; /* Cor de hover mais suave */
+}
